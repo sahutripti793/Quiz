@@ -1,0 +1,69 @@
+
+.quiz-app {
+    background: #f5f5dc;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-app h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    color: #654321;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.quiz-container {
+    padding: 20px 0;
+}
+
+#question {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #654321;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background-color: #F5F5DC;
+    color: #654321;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #e0e0ca;
+}
+
+#next-btn {
+    background-color: #654321;
+    color: #F5F5DC;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+}
